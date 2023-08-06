@@ -180,6 +180,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .visually-hidden {
@@ -199,7 +200,7 @@ img {
 }
 
 .li_second_section {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
 }
 
@@ -221,7 +222,7 @@ img {
 
 .list_background {
   background-color: #FFFFFF;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
