@@ -8,6 +8,10 @@ img {
   display: block;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .head {
   border-bottom: 1px solid #e7e9fc;
 
