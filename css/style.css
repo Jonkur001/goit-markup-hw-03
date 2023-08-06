@@ -60,9 +60,11 @@ img {
   color: #2E2F42;
 }
 
-.list {
+.list_contacts {
   list-style: none;
-  padding: 24px 0
+  padding: 24px 0;
+  display: flex;
+  gap: 40px
 }
 
 .nav_href {
