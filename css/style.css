@@ -110,6 +110,8 @@ img {
 /*Main*/
 .first_section {
   background-color: #2E2F42;
+  padding: 188px 0;
+
 }
 
 /*first_section*/
@@ -121,6 +123,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   margin: auto;
+  max-width: 496px;
 }
 
 
@@ -134,6 +137,11 @@ img {
   line-height: 24px;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .first_section_button:hover {
@@ -147,6 +155,10 @@ img {
 }
 
 /*second_section*/
+.second_section {
+  padding: 120px 0
+}
+
 .second_head {
   font-size: 36px;
   font-weight: 700;
@@ -164,6 +176,21 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.list_second_section {
+  display: flex;
+  gap: 24px;
+}
+
+.li_second_section {
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
 }
 
 .discription {
