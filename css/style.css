@@ -4,7 +4,45 @@
   background-color: #FFFFFF;
 }
 
+img {
+  display: block;
+}
+
+.head {
+  border-bottom: 1px solid #e7e9fc;
+
+}
+
+.head_content  {
+  display: flex;
+  container: 
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding: 0 15px 0 15px;
+}
+
 /* Header*/
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.list_menu {
+  display: flex;
+  gap: 40px;
+
+}
+
+.nav_list {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .logo {
   text-decoration: none;
   text-transform: uppercase;
@@ -15,6 +53,7 @@
   letter-spacing: 0.03em;
   line-height: 1.17;
   color: #4D5AE5;
+  margin-right: 76px;
 }
 
 .logo_color {
@@ -23,11 +62,7 @@
 
 .list {
   list-style: none;
-}
-
-.nav {
-  font-weight: 500;
-  line-height: 1.5
+  padding: 24px 0
 }
 
 .nav_href {
@@ -37,7 +72,7 @@
   color: #2E2F42;
   text-decoration: none;
   margin-right: 40px;
-
+  padding: 24px 0;
 }
 
 .nav_href:hover {
