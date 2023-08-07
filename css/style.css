@@ -16,11 +16,12 @@ img {
 .head_content  {
   display: flex;
   width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .container {
   margin: 0 auto;
+  padding: 0 15px 0 15px,
 }
 
 /* Header*/
