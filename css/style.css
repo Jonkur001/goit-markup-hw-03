@@ -15,12 +15,12 @@ img {
 
 .head_content  {
   display: flex;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .container {
-  width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 /* Header*/
