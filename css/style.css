@@ -24,7 +24,7 @@ ul {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 /* Header*/
@@ -206,7 +206,7 @@ ul {
 }
 
 .li_second_section {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
 }
 
