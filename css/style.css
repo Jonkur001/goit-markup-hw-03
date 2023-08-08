@@ -1,0 +1,242 @@
+/*
+1. Загальні
+2. Header
+3. First section
+4. Second section
+5. Third section
+6. Fourth section
+*/
+
+
+
+/*1. Загальні*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block
+}
+
+
+.container { /*дефолтный клас*/
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*2. Header*/
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header_content {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+.logo_text {
+  color: #2e2f42;
+}
+
+.nav_list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav_list_item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+
+.nav_list_item:hover {
+  color: #404bbf;
+}
+
+.nav_list_item:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+  display: flex;
+}
+
+.contacts_item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  gap: 40px;
+}
+
+.contacts_item:hover {
+  color: #404bbf;
+}
+
+.contacts_item:focus {
+  color: #404bbf;
+}
+
+
+
+/*3. First section*/
+
+.first_section {
+  background-color: #2e2f42;
+}
+
+.first_section_head {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.first_section_button {
+  background-color: #4D5AE5;
+  font-family: "Roboto", sans-serif ;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.first_section_button:hover {
+  background-color: #404BBF;
+}
+
+.first_section_button:focus {
+  background-color: #404BBF;
+}
+
+
+
+/*4. Second section*/
+.second_section_list_head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.second_section_list_description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+
+
+/*5. Third section */
+.third_section {
+  background-color: #F4F4FD;
+}
+
+.third_section_head {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.third_section_item {
+  background-color: #FFFFFF;
+}
+
+.hird_section_list_head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.hird_section_list_description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+
+
+
+/*6 Fourth section*/
+.fourth_section_head {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.fourth_section_list_head {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.fourth_section_list_description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+
+}
+
+
+
+/*7 Footer*/
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer_logo_text {
+  color: #f4f4fd;
+}
+
+.footer_description {
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em;
+}
