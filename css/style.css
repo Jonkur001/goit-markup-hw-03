@@ -88,6 +88,9 @@ img {
 
 .contacts {
   font-style: normal;
+}
+
+.contacts_list {
   display: flex;
 }
 
