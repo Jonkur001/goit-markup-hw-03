@@ -119,6 +119,7 @@ img {
 
 .first_section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .first_section_head {
@@ -141,6 +142,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .first_section_button {
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif ;
@@ -149,6 +151,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -163,6 +171,10 @@ img {
 
 
 /*4. Second section*/
+.second_section {
+  padding: 120px 0;
+}
+
 .second_section_list_head {
   font-weight: 500;
   font-size: 20px;
