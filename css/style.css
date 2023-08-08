@@ -93,7 +93,7 @@ img {
   font-style: normal;
 }
 
-.contacts_list {
+.list_contacts {
   display: flex;
   gap: 40px;
 }
