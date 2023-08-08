@@ -75,6 +75,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.nav_list_item_href {
   padding: 24px 0;
 }
 
@@ -92,6 +95,7 @@ img {
 
 .contacts_list {
   display: flex;
+  gap: 40px;
 }
 
 .contacts_item {
@@ -99,7 +103,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  gap: 40px;
 }
 
 .contacts_item:hover {
