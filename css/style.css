@@ -224,11 +224,11 @@ img {
 .third_section_list {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .third_section_item {
-  margin: 0;
-  padding-left: 0;
   background-color: #FFFFFF;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
